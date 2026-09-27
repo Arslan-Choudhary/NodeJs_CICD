@@ -13,6 +13,11 @@ app.get("/get-messages", (_, res) => {
   res.json({ messages });
 });
 
+app.get("/", (_, res) => {
+  res.json({ message: "test ci/cd" });
+});
+
+
 app.get("/test", (_, res) => {
   res.json({ message: "Test route is working! updated2" });
 });
