@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon main",
-    "start": "pm2 start index.js --name template-3000 --max-memory-restart=3G"
+    "start": "pm2 start index.js --name node_api --max-memory-restart=3G"
   },
   "keywords": [],
   "author": "",

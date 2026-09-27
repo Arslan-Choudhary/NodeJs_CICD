@@ -14,7 +14,7 @@ app.get("/get-messages", (_, res) => {
 });
 
 app.get("/test", (_, res) => {
-  res.json({ message: "Test route is working" });
+  res.json({ message: "Test route is working! updated" });
 });
 
 app.listen(PORT, () => {
